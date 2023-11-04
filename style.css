@@ -1,0 +1,254 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+
+html{
+    font-family: Tahoma, Trebuchet MS, sans-serif;
+    background-color: #748CAB;
+    color: #fff;
+}
+
+.homepage img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 0;
+}
+
+.homepage{
+    text-align: center;
+    border-style: none;
+}
+
+.login {
+    background-color: #1D2D44; 
+    border-width: 0.5px;
+    width: 12em;
+    padding: 15px 28px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.iButtons{
+    font-family: Tahoma, Trebuchet MS, sans-serif;
+    background-color: #1D2D44; 
+    border-width: 0.5px;
+    color: #f1f1f1;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.bButtons{
+    font-family: Tahoma, Trebuchet MS, sans-serif;
+    background-color: #1D2D44; 
+    border-width: 0.5px;
+    color: #f1f1f1;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button {
+    background-color: #BACCE5; 
+    border-width: 1px;
+    border-style: solid;
+    padding: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 130px;
+}
+
+table th, td{
+    border: 1px solid #2D3861;
+    padding: 0.5em;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th{
+    background-color: #1D2D44;
+}
+
+caption{
+    font-weight: bold;
+    text-align: left;
+}
+
+a{
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+caption a, header a{
+    position: absolute;
+    right: 0;
+}
+
+.deleteRow{
+    text-decoration: underline;
+}
+
+div{
+    border: 1px solid;
+    padding: 0.5em;
+}
+
+.contain{
+    display: flex;
+    justify-content: space-between;
+}
+
+.next {
+    background-color: #BACCE5; 
+    border-color: #91AFD5;
+    color: black;
+}
+
+.divborder{
+    border: 1px solid black; 
+}
+
+::selection{
+    background: #BDCC8E;
+}
+
+.container{
+    max-width: 440px;
+    padding: 0 20px;
+    margin: 170px auto;
+    border: none; 
+    color: black;
+}
+.wrapper{
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    border: none; 
+}
+.wrapper .title{
+    height: 90px;
+    background: #748CAB;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper form{
+    padding: 30px 25px 25px 25px;
+}
+.wrapper form hr {
+    border: 1px solid #f1f1f1;
+}
+.wrapper form .row, .wrapper form .row2{
+    height: 45px;
+    margin: 15px 0px;
+    position: relative;
+    border: none; 
+}
+.wrapper form .row input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+}
+.wrapper form .row2 input{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+}
+.wrapper form .row2 label{
+    margin: 10px;
+}
+form .row input:focus, form .row2 input:focus{
+    border-color: #748CAB;
+}
+form .row input::placeholder, form .row2 input::placeholder{
+    color: #999;
+}
+.wrapper form .row i{
+    position: absolute;
+    width: 47px;
+    height: 45px;
+    color: #fff;
+    font-size: 18px;
+    background: #748CAB;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper form .pass{
+    margin: -8px 0 20px 0;
+    border: none; 
+    text-align: center;
+}
+.wrapper form .pass a{
+    color: #748CAB;
+    font-size: 17px;
+    text-decoration: none;
+}
+.wrapper form .pass a:hover{
+    text-decoration: underline;
+}
+.wrapper form .pass .row.button{
+    color: #fff;
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+    height: 40px;
+    background: #748CAB;
+    border: 1px solid #748CAB;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.wrapper form .signup-link{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #1D2D44;
+    border: none; 
+}
+.wrapper form a{
+    color: #748CAB;
+    text-decoration: none;
+    text-align: center;
+    align-self: center;
+}
+form a:hover{
+    text-decoration: underline;
+}
+
+h3 a {
+    position: absolute;
+    top: 0px;
+    right: 10px; 
+}
+
+span{
+    font-weight: normal;
+}
